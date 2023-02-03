@@ -1,0 +1,4 @@
+let drive = 90
+let speed = drive > 110 ? 'Above' : 'Below' 
+
+console.log(speed)
