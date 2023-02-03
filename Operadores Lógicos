@@ -1,0 +1,26 @@
+// let temIdadeMinima = true
+// let temTituloEleitor = true
+
+// let podeVotar = temIdadeMinima && temTituloEleitor
+
+// console.log(podeVotar)
+
+//let temIdadeMinima = true
+//let temTituloEleitor = false
+
+//let podeVotar2 = temIdadeMinima || temTituloEleitor
+
+//console.log(podeVotar2)
+
+let temIdadeMinima = true
+let temTituloEleitor = true
+
+let podeVotar3 = temIdadeMinima && temTituloEleitor
+
+console.log('Pode Votar: ' + podeVotar3)
+
+let podeViajar = !podeVotar3
+console.log('Pode viajar: ' + podeViajar)
+
+
+//Todos são exemplos de operadores lógicos
