@@ -1,0 +1,12 @@
+let driverSpeed = 110
+if (driverSpeed >110) {
+  console.log('Dirigindo Rápido')
+}
+
+else if (driverSpeed > 40 && driverSpeed <= 110) {
+  console.log('Velocidade ok')
+}
+
+
+else
+  console.log('Dirigindo muito lento')
