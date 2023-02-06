@@ -1,0 +1,6 @@
+let corCliente = 'black'
+let corEstoque = 'Red' 
+let corVendida =  corCliente || corEstoque
+
+
+console.log(corVendida)
